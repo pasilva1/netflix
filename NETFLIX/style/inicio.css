@@ -1,0 +1,79 @@
+:root{
+    --vermelho:#e50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.background-inicio{
+    min-height: 690px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 0px, rgba(0, 0, 0, 0.733) 40%, rgba(0, 0, 0, 0.411) 75%, rgba(0, 0, 0, 0.877) 100%),url(/img/inicio/alpha_website_medium.jpg);
+    
+}
+
+.top-inicio{
+    background-image: 100%;
+    color: white;  
+}
+
+.top1{
+    font-size: 48px;
+   
+    position: relative;
+    width: 100%;
+    padding: 75px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    font-family:  'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.top2{
+    font-size: 30px;
+   
+    position: relative;
+    width: 100%;
+    padding:50px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    font-family:  'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.top3{
+    font-size: 27px;
+   
+    position: relative;
+    width: 100%;
+    padding:20px 0;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    font-family:  'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.body{
+    color: white;
+}
+
+.container-inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20p;
+    font-size: 19px;
+}
+
+.logo-inicio{
+    margin-left: 10px 50px;
+    color: var(--vermelho);
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 43px;
+    padding: 9px; 15px;
+}
